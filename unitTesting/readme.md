@@ -32,7 +32,7 @@ Some packages are installed globally and serve as utilities. To install a packag
 > npm i -g [package name]
 ```
 
-For basic unit testing you need a one of those utility packages: [`mocha`](https://www.npmjs.com/package/mocha). This package provides a frame work for executing your tests and outputting results. To install `mocha` globally, you would run
+For basic unit testing you need a one of those utility packages: [`mocha`](https://www.npmjs.com/package/mocha). This package provides a framework for executing your tests and outputting results. To install `mocha` globally, you run:
 
 ```bash
 npm i -g mocha
