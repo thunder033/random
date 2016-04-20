@@ -1,0 +1,25 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "Basic unit testing in Node JS with Mocha",
+  "main": "weathermachine.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunder033/random.git"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "mocha",
+    "weathermachine"
+  ],
+  "author": "Greg Rozmarynowycz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thunder033/random/issues"
+  },
+  "homepage": "https://github.com/thunder033/random#readme"
+}
