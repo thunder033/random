@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thunder033/random.git"
