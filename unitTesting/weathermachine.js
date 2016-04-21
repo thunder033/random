@@ -7,7 +7,7 @@ var temp = 50;
 var conditions = [];
 
 module.exports = {
-    status: "OFF",
+
     get currentWether(){
         var conditionsStr = conditions.length > 0 ? conditions.join(", ") : "Fair";
         return `${temp} degree and ${conditionsStr}`; 
@@ -17,17 +17,21 @@ module.exports = {
         return conditions;
     }
     
-    get isPleasant(){
-        return temp > -50 || conditons.indexOf("Snowy") > -1;
+    get temperature(){
+        return temp;
     }
 
-    setTemperature(targetTemp){
+    set temperature(targetTemp){
         if(typeof targetTemp != "number"){
             throw new TypeError("Temperature must be a number!");
         }
 
         temp = targetTemp - 50;
     },
+    
+    get isPleasant(){
+        return temp > -50 || conditons.indexOf("Snowy") > -1;
+    }
     
     clearConditions(){
         conditions.length = 0;
