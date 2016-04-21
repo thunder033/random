@@ -3,10 +3,12 @@ Unit Testing (with Node JS)
 
 To follow along you'll need a few things. First you need **[Node JS](https://nodejs.org/en/)** (either the 4.3 LTS or 5.3 is fine).
 
-When Node is installed you'll need a few node packages installed (known as modules). 
-Node includes a command line tool called [Node Package Manager](https://www.npmjs.com/) (referred to as NPM).
-
+Next you'll want to clone this repository to your local disk (or download as a ZIP): https://github.com/thunder033/random.git.
+Node and unit testing involve a lot of command line utilities, so you'll want to open a terminal window the `unitTesting` directory where you cloned this project.
 While not necessary, if you're on Windows, you'll probably want [Cmder](http://cmder.net/) console emulator in place of the crappy Windows command line.
+
+When Node is installed you'll need a couple node packages installed (known as modules).
+Node includes a command line tool called [Node Package Manager](https://www.npmjs.com/) (referred to as NPM).
 
 If Node installed correctly, you should be able run the following version commands:
 
@@ -15,7 +17,6 @@ If Node installed correctly, you should be able run the following version comman
 v5.3.0
 > npm --version
 3.3.12
-
 ```
 
 To install a module with NPM, you use the `install` command (also aliased to `i`):
@@ -35,7 +36,7 @@ Some packages are installed globally and serve as utilities. To install a packag
 For basic unit testing you need a one of those utility packages: [`mocha`](https://www.npmjs.com/package/mocha). This package provides a framework for executing your tests and outputting results. To install `mocha` globally, you run:
 
 ```bash
-npm i -g mocha
+> npm i -g mocha
 ```
 
 Other NPM packages are local to a particular project, and can be included in other project scripts.
