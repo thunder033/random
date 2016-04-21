@@ -1,6 +1,6 @@
 {
   "name": "unit-testing",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Basic unit testing in Node JS with Mocha",
   "main": "weathermachine.js",
   "scripts": {

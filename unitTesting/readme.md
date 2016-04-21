@@ -38,10 +38,14 @@ For basic unit testing you need a one of those utility packages: [`mocha`](https
 npm i -g mocha
 ```
 
-Other NPM packages are local to a particular project, and can be included in other project scripts. These packages are saved in a project definition file in your project directory called `package.json`. This file can also contain things like the project name and shortcut scripts. All the packages you need will be included in this project started but I'll list them here:
+Other NPM packages are local to a particular project, and can be included in other project scripts.
+These packages are saved in a project definition file in your project directory called `package.json`.
+This file can also contain things like the project name and shortcut scripts.
+This demo depends on [`chai`](http://chaijs.com/), a powerful assertion framework.
+Since it is already listed as a dependency, all you need to  install them you simply need to run
 
-* [`chai`](http://chaijs.com/) - powerful assertion framework
+```bash
+> npm i
+```
 
-
-
-
+to install it.
