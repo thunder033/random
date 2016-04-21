@@ -43,10 +43,8 @@ Other NPM packages are local to a particular project, and can be included in oth
 These packages are saved in a project definition file in your project directory called `package.json`.
 This file can also contain things like the project name and shortcut scripts.
 This demo depends on [`chai`](http://chaijs.com/), a powerful assertion framework.
-Since it is already listed as a dependency, all you need to  install them you simply need to run
+Since it is already listed as a dependency, to install it you simply need to run
 
 ```bash
 > npm i
 ```
-
-to install it.
